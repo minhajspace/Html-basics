@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  width: 75%;
+  height: 100%;
+}
+
+.childre {
+  flex: 1;
+}
