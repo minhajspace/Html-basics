@@ -1,12 +1,9 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0px;
   font-size: 18px;
 }
 
 .main {
-  display: flex;
   width: 75%;
   height: 100%;
   margin: 20px;
