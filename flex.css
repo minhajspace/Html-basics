@@ -1,36 +1,90 @@
 .container{
     display: flex;
     /* flex-direction: column; */
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 250px;
     border: 2px solid green;
-    margin: 5px;
-    padding: 10px;
-    
     flex-flow: row wrap;
-    
     align-items: flex-start;
-    
+    text-align: center;
+     margin: 10px;
+   padding: 10px;
     /* flex-wrap: wrap; */
-    
-    
-    
-   
 }
+.container-tow{
+    display: flex;
+    height: 200px;
+    width: 250px;
+    border: 2px solid green;
+    justify-content: flex-end;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container-three{
+    display: flex;
+    height: 200px;
+    width: 250px;
+    border: 2px solid green;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.container-four{
+    display: flex;
+    height: 200px;
+    width: 250px;
+    border: 2px solid green;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+.container-five{
+    display: flex;
+    height: 200px;
+    width: 250px;
+    border: 2px solid green;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    align-items:flex-end;
+}
+
 .item{
    border: 1px solid black;
-    
-    padding: 10px;
-    margin: 10px;
- 
+   width: 25px;
+   height: 25px;
+   margin: 10px;
+   padding: 10px;
 
 }
 
 .item-font{
     font-size: 15px;
-    flex-grow: 1;
-    
 }
 .flex-grow{
-    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.extra-margin{
+    margin-top: 20px !important;
+}
+
+.display-inline{
+    display:block;
+}
+.main-container{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    width: 600px;
+
+}
+.mb{
+margin-bottom: 20px;
 }
