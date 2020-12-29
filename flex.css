@@ -7,8 +7,9 @@
     margin: 5px;
     padding: 10px;
     /* flex-wrap: wrap; */
-    flex-flow:  wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
    
 }
 .item{
@@ -18,4 +19,8 @@
     margin: 10px;
     height: 10%;
 
+}
+
+.item-font{
+    font-size: 15px;
 }
