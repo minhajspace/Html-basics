@@ -2,8 +2,6 @@
     display: flex;
     height: 200px;
     width: 250px;
-    height: 200px;
-    width: 250px;
     border: 2px solid green;
     flex-flow: column wrap;
     text-align: center;

@@ -1,0 +1,24 @@
+{
+  "name": "Html-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bulid": "tailwindcss build src/style.css -o .public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhajspace/Html-basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhajspace/Html-basics/issues"
+  },
+  "homepage": "https://github.com/minhajspace/Html-basics#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
