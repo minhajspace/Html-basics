@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bulid": "tailwindcss build src/style.css -o .public/styles.css"
+    "bulid": "tailwindcss build src/style.css -o public/styles.css"
   },
   "repository": {
     "type": "git",
